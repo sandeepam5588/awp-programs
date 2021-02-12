@@ -1,0 +1,26 @@
+students {
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+student {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+usn {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+name {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+college, branch, year, email {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}

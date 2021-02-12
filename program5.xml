@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="program5-style.css"?>
+<!-- Design an XML document to store information about a student in a college
+affiliated to BU. The information must include USN, Name, Name of the College,
+Brach, Year of Joining, and e-mail id. Make up sample data for 3 students. Create
+a CSS style sheet and use it to display the document -->
+<students>
+  <student id="1"> 
+    <usn>19TUSLC004</usn>
+    <name>sandeep</name>
+    <college>Bangalore University</college>
+    <branch>MCA</branch>
+    <year>2019</year>
+    <email>sandeep@gmail.com</email>
+  </student>
+
+  <student id="2"> 
+    <usn>18TUSAC021</usn>
+    <name>yashwanth</name>
+    <college>Bangalore University</college>
+    <branch>MCA</branch>
+    <year>2018</year>
+    <email>yashwanth@gmail.com</email>
+  </student>
+
+  <student id="3"> 
+    <usn>19TUSLC002</usn>
+    <name>venkat</name>
+    <college>Bangalore University</college>
+    <branch>MCA</branch>
+    <year>2019</year>
+    <email>venkat@gmail.com</email>
+  </student>
+</students>

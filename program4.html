@@ -1,0 +1,82 @@
+<!-- Develop and demonstrate, using Javascript script, a XHTML document that
+contains three short paragraphs of text, stacked on top of each other, with only
+enough of each showing so that the mouse cursor can be placed over some part of
+them. When the cursor is placed over the exposed part of any paragraph, it should
+rise to the top to become completely visible. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>mouse events</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
+		:root {
+
+			--color-background: #7C3AED;
+		}
+
+		body {
+			background-color: var(--color-background);
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		h2 {
+			padding: 2rem 2rem 0rem 2rem;
+		}
+
+		div {
+			padding: 1rem 2rem 0rem 2rem;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			max-width: 75vw;
+		}
+
+		div:hover {
+			white-space: normal;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>Do You wanna know about me</h2>
+	<div>
+		<p>Here is my childhood details. From the age 0 to 12 years is always the easiest time of year to declare the sky is falling,
+			but it's worth noting the amount of exciting independent and small-scale projects that will get significant releases in
+			these months, coming off successful runs at Sundance, in Austin, or even on the Internet. Andrew Bujalski's romantic comedy
+			Results (May 29) warrants attention thanks to a magnetic lead performance from Cobie Smulders (who's right there with
+			the Avengers battling Ultron the very same month). The Sundance winner Me and Earl and the Dying Girl (June 12) promises
+			well-earned teenaged tears; the festival also produced the surprise hit Dope (June 19), a hip-hop-centered coming-of-age
+			film. James Ponsoldt's The End of the Tour (July 31) will attract notice for Jason Segel's performance as the late literary
+			legend David Foster Wallace, but hits hardest as a stunningly smart portrayal of the banalities and idiosyncrasies of
+			clinical depression.</p>
+	</div>
+
+	<div>
+		<p>Here is my teenage details. From the age 13 to 19 years is always the easiest time of year to declare the sky is falling,
+			but it's worth noting the amount of exciting independent and small-scale projects that will get significant releases in
+			these months, coming off successful runs at Sundance, in Austin, or even on the Internet. Andrew Bujalski's romantic comedy
+			Results (May 29) warrants attention thanks to a magnetic lead performance from Cobie Smulders (who's right there with
+			the Avengers battling Ultron the very same month). The Sundance winner Me and Earl and the Dying Girl (June 12) promises
+			well-earned teenaged tears; the festival also produced the surprise hit Dope (June 19), a hip-hop-centered coming-of-age
+			film. James Ponsoldt's The End of the Tour (July 31) will attract notice for Jason Segel's performance as the late literary
+			legend David Foster Wallace, but hits hardest as a stunningly smart portrayal of the banalities and idiosyncrasies of
+			clinical depression.<p>
+	</div>
+
+	<div>
+		<p> From the age 20 to present is always the easiest time of year to declare the sky is falling, but it's worth noting
+			the amount of exciting independent and small-scale projects that will get significant releases in these months, coming
+			off successful runs at Sundance, in Austin, or even on the Internet. Andrew Bujalski's romantic comedy Results (May 29)
+			warrants attention thanks to a magnetic lead performance from Cobie Smulders (who's right there with the Avengers battling
+			Ultron the very same month). The Sundance winner Me and Earl and the Dying Girl (June 12) promises well-earned teenaged
+			tears; the festival also produced the surprise hit Dope (June 19), a hip-hop-centered coming-of-age film. James Ponsoldt's
+			The End of the Tour (July 31) will attract notice for Jason Segel's performance as the late literary legend David Foster
+			Wallace, but hits hardest as a stunningly smart portrayal of the banalities and idiosyncrasies of clinical depression.</p>
+	</div>
+
+</body>
+
+</html>
