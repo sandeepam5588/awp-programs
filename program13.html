@@ -1,47 +1,26 @@
-<!--Create a XHTML form with Name, Address Line 1, Address Line 2, and E-mail
-text fields. On submitting, store the values in MySQL table. Retrieve and display the data based on Name.-->
+<!--Create a XHTML form with Name, Address Line 1, Address Line 2, and E-mail text fields. 
+On submitting, store the values in MySQL table. 
+Retrieve and display the data based on Name.-->
+<html>
+          <form action="http://localhost/program13insert.php">
+               <fieldset>
+               <legend><h2>Insert Info</h2></legend>
+         			Full Name:<input type="text" name="name"><br>
+         			Addr  1:  <input type="text" name="addr1"><br>
+         			Addr  2:  <input type="text" name="addr2"><br>
+         			Email-ID: <input type="text" name="email"><br>
+         			<input type="submit" value="insert" />
+         			<input type="reset" value="reset" />
+               </fieldset>
+    		</form>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="program13-style.css" rel="stylesheet">
-  <title>user details</title>
-</head>
-<body>
-  
-<form action="/action_page.php">
-  <h2 class="heading"> User Details Form</h2>
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="fname" required /><br><br>
 
-  <label class="label-head">Current Address </label><br>
-  <label>street</label>
-     <input type ="text" id="c-street" required /><br>
-  <label>city</label>
-     <input type ="text" id="c-city" required /><br>
-  <label>state</label>
-     <input type ="text" id="c-state" required /><br>
-  <label>pincode</label>
-     <input type ="number" id="c-pincode" required /><br>
-  <br>
-
- <label class="label-head">permanent Address </label><br>
-  <label>street</label>
-     <input type ="text" id="p-street" required /><br>
-  <label>city</label>
-     <input type ="text" id="p-city" required /><br>
-  <label>state</label>
-     <input type ="text" id="p-state" required /><br>
-  <label>pincode</label>
-     <input type ="number" id="p-pincode" required /><br>
-  <br>
-
-  <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email"><br><br>
-
-  <input class="btn-submit" type="submit" value="Submit">
-</form> 
-</body>
-</html>
+    		<form action="http://localhost/program13search.php">
+               <fieldset>
+               <legend><h2>Search Info</h2></legend>
+         			Name:<input type="text" name="name" /><br>
+         			<input type="submit" value="search" />
+         			<input type="reset" value="reset" />
+               </fieldset>
+     	</form>
+</html> 
