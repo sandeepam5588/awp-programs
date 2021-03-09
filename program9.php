@@ -4,7 +4,7 @@
     die('Could not connect: ' . mysql_error());
   }
   mysqli_select_db( $con,"test");
-  $xml = simplexml_load_file("student.xml");
+  $xml = simplexml_load_file("program9_xml.xml");
   $aa = "";
   foreach($xml->children() as $child) {
      foreach($child->children() as $childs) {
