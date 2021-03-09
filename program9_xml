@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bu>
+	<student>
+		<usn>19TUSLC004</usn>
+		<name>SANDEEP</name>
+		<college>JNANABHARATHI</college>
+		<branch>MCA</branch>
+		<year>2019</year>
+		<email>sandeep@gmail.com</email>
+	</student>
+	<student>
+		<usn>19TUSLC001</usn>
+		<name>VENKAT</name>
+		<college>JNANABHARATHI</college>
+		<branch>MCA</branch>
+		<year>2019</year>
+		<email>venkat@gmail.com</email>
+	</student>
+	<student>
+		<usn>18TUSAC023</usn>
+		<name>YASHWANTH</name>
+		<college>JNANABHARATHI</college>
+		<branch>MCA</branch>
+		<year>2018</year>
+		<email>yashwanth@gmail.com</email>
+	</student>
+</bu>
